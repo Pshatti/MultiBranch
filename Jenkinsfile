@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('Static-test') {
 			steps {
-				echo 'Running static tests on code'
+				echo 'Running static test'
 			}
 		}
 		stage('Build') {
